@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  background-color: #3465F7;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #174ceb;
+}
+
+.btn-white {
+  background-color: #fff !important;
+  color: #162C6B !important;
+}
+
+.btn-white:hover {
+  background-color: #eee !important;
+}
+
+.login_btn {
+  border: 2px solid #fff;
+  background: none;
+  padding: 10px 25px;
+  color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.login_btn:hover {
+  background-color: #fff;
+  color: #162C6B;
+}
+
+.underline {
+  background-color: #3465F7;
+  width: 7rem;
+  height: .2rem;
+  margin-left: 44.5%;
+  margin-bottom: 2.5rem;
+}
+
+p, h3 {
+  color: #001551;
+}
+
+.box {
+  background-color: #ffa024;
+  margin: 2rem  0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: -1rem 0;
+}
+
+.box .heading {
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: .5rem;
+  color: #162C6B !important;
+}
+
+.box p {
+  font-size: 1.2rem;
+  padding-right: 2rem;
+  display: block;
+  text-transform: capitalize;
+}
+
+#msg {
+  color: #ff0000;
+}
+
+#msg_green {
+  color: #008000;
+}
+
+.main .container .bottom form input[type=password] {
+  margin: auto;
+  padding: .5rem;
+  font-size: 1.2rem;
+  width: 40%;
+  border-radius: 10px;
+  border-color: #3465F7;
+  outline-color: #3465F7;
+  outline: none;
+}
+
+.main .container .bottom form div:nth-child(4) label {
+  margin-right: 1rem;
+}
+
+.main .container .bottom form div:nth-child(6) label {
+  margin-right: -3rem;
+}
+
+.main .container .bottom form input[type=submit] {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=changePass.css.map */

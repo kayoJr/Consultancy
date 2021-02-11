@@ -1,0 +1,76 @@
+@import 'utilities';
+
+form{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -10px 10px 20px $overlay;
+    h2{
+        text-align: center;
+        font-size: 2.3rem;
+        padding: 1rem 0;
+        color: $btn_blue;
+      }
+      p{
+        text-align: center;
+        color: #148d14;
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+    .grid{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: auto auto;
+        label{
+            color: $para_blue;
+        }
+        input{
+           padding: .5rem;
+           border-color: $para_blue;
+           border-radius: 5px;
+           margin-left: .5rem;
+        }
+        select{
+            margin-left: 20%;
+            font-size: 1.2rem;
+            border-color: $para_blue;
+            border-width: .15rem;
+            width: auto;
+            border-radius: 5px;
+            option{
+              font-weight: bold;
+      
+            }
+          }
+        input[type=password]{
+            margin-left: 1rem;
+        }  
+        div{
+            &:first-child{
+               input{
+                margin-left: 5rem;
+               }
+            }
+            &:last-child{
+               input{
+                margin-left: 1rem;
+               }
+            }
+        }
+    }
+}
+.main{
+    .container{
+        .bottom{
+            background-color: #fff !important;
+        }
+    }
+}

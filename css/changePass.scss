@@ -1,0 +1,36 @@
+@import 'utilities';
+
+.main{
+    .container{
+        .bottom{
+            form{
+                input[type=password]{
+                    margin: auto;
+                    padding: .5rem;
+                    font-size: 1.2rem;
+                    width: 40%;
+                    border-radius: 10px;
+                    border-color: $btn_blue;
+                    outline-color: $btn_blue;
+                    outline: none;
+                }
+                div{
+                    &:nth-child(4){
+                        label{
+                            margin-right: 1rem;
+                        }
+                    }
+                    &:nth-child(6){
+                        label{
+                            margin-right: -3rem;
+                        }
+                    }
+                }
+            input[type=submit]{
+                margin: auto;
+                margin-bottom: 1rem;
+            }
+            }
+        }
+    }
+}

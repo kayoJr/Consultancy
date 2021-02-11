@@ -1,0 +1,117 @@
+@import "utilities";
+
+.adminPanel{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 0;
+    position: relative;
+    .side{
+        background-color: $para_blue;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        //padding-left: 2rem;
+        .logo{
+            background-color: #fff;
+            padding: 1rem 1rem;
+            margin: 1.5rem 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            h1{
+                font-size: 4rem;
+            }
+        }
+        .navs{
+            margin-top: 4rem;
+            ul{
+                .active{
+                    background-color: #fff;
+                    a{
+                        color: $para_blue;
+                        font-weight: bold;
+                    }
+                }
+                li{
+                    margin: 1rem 2rem;
+                    padding: 1rem;
+                    width: 100%;
+                    margin-left: 0;
+                    padding-left: 2rem;
+                    transition: all .3s;
+                    &:hover{
+                        background-color: #fff;
+                    a{
+                        color: $para_blue;
+                        font-weight: bold;
+                    }
+                    }
+                   a{
+                       color: #fff;
+                       font-size: 1.2rem;
+                       transition: all .3s;
+                   }
+                }
+            }
+        }
+    }
+    .main{
+        .container{
+            margin: 2rem;
+            .top{
+                background-color: $para_blue;
+                padding: 1rem;
+                border-radius: 5px;
+                text-align: center;
+                color: #fff;
+                position: sticky;
+                top: 0;
+            }
+            .bottom{
+                background-color: #eee;
+                height: auto;
+                margin-top: 2rem;
+                [data-tab-content] {
+                    display: none;
+                  }
+                  .tab-content{
+                      .active[data-tab-content]{
+                          display: block;
+                      }
+                  }
+                nav{
+                    background-color: #fff;
+                    color: $para_blue;
+                    padding: .5rem 0;
+                    .active{
+                        background-color: #eee;
+                    }
+                    h3{
+                        text-align: center;
+                        display: inline;
+                        padding: 1rem;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        padding-right: 33.73%;
+                        background-color: #fff;
+                    }
+                }
+                div{
+                    padding: 1rem;
+                }
+                // #page1{
+                    
+                // }
+                #page2{
+                    .box{
+                        background-color: $btn_blue;
+                       p{
+                        color: #fff;
+                       }
+                    }
+                }
+               
+            }
+        }
+        
+    }
+}

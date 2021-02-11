@@ -1,0 +1,86 @@
+@import "utilities";
+
+form{
+    text-align: start;
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: -10px 10px 20px $overlay;
+    border-radius: 10px;
+    margin-top: 4rem;
+    .both {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 80%;
+      margin-right: 0;
+     
+  }
+    h2{
+      text-align: center;
+      font-size: 2.3rem;
+      padding: 1.5rem 0;
+      color: $btn_blue;
+    }
+    p{
+      padding-bottom: 1rem;
+      text-align: center;
+      color: #148d14;
+      font-size: 1.2rem;
+      text-transform: capitalize;
+      font-weight: bold;
+    }
+    div{
+      padding: 1rem 0;
+      display: flex;
+      margin-left: 1rem;
+    }
+    label{
+      color: $para_blue;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    input[type=submit]{
+      cursor: pointer;
+      border: none;
+      align-items: center;
+      padding: 12px 40px !important;
+      margin-bottom: 1rem;
+      margin-left: 40%;
+    }
+     select, textarea{
+      border-color: $para_blue;
+      border-radius: 8px;
+      padding: 10px 0;
+      width: 20rem;
+      outline: none;
+      &:focus-within{
+        border-color: $btn_blue;
+      }
+
+    }
+    input{
+      margin-left: 2rem;
+    }
+    select{
+      margin-left: 9%;
+      font-size: 1.2rem;
+      border-width: .15rem;
+      option{
+        font-weight: bold;
+
+      }
+    }
+    textarea{
+      margin-left: 10rem;
+      border-width: .15rem;
+    }
+  }
+.main{
+    .container{
+
+        .bottom{
+            background-color: #fff !important;
+        }
+    }
+}

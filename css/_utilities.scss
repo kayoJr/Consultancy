@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+  }
+
+//colors
+$btn_blue : #3465F7;
+$overlay: rgba(24, 52, 136, 0.534);
+$dark_blue: #162C6B;
+$para_blue: #001551;
+$snd_overlay : #4d5b85e8;
+$footer: #2446AB;
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn{
+    background-color: $btn_blue;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: all .3s ease;
+    border: none;
+    &:hover{
+        background-color: #174ceb;
+    }
+}
+.btn-white{
+    background-color: #fff !important;
+    color: $dark_blue !important;
+    &:hover{
+        background-color: #eee !important;
+    }
+}
+.login_btn{
+    border: 2px solid #fff;
+    background: none;
+    padding: 10px 25px;
+    color: #fff;
+    transition: all .3s ease;
+    
+    &:hover{
+        background-color: #fff;
+        color: $dark_blue;
+    }
+}
+
+.underline{
+    background-color: $btn_blue;
+    width: 7rem;
+    height: .2rem;
+    margin-left: 44.5%;
+    margin-bottom: 2.5rem ;
+}
+
+p,h3{
+    color: $para_blue;
+}
+
+.box{
+    background-color: #ffa024;
+    margin: 2rem  0;
+    height: max-content;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: -1rem 0;
+    }
+    .heading{
+        background-color: #fff;
+        padding: .5rem;
+        border-radius: 10px;
+        text-transform: uppercase;
+        width: fit-content;
+        margin-bottom: .5rem;
+        color: $dark_blue !important;
+    }
+    p{
+        font-size: 1.2rem;
+        padding-right: 2rem;
+        display: block ;
+        text-transform: capitalize;
+    }
+}
+// .box{
+//     background-color: #ffa024;
+//     margin: 2rem  0;
+//     height: max-content;
+//     border-radius: 5px;
+
+// }
+#msg{
+    color: #ff0000;
+}
+#msg_green{
+    color: #008000;
+}
